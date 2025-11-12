@@ -1,0 +1,179 @@
+{
+  "Navbar": {
+    "home": "ホーム",
+    "features": "機能",
+    "howItWorks": "使い方",
+    "pricing": "料金",
+    "faq": "よくある質問",
+    "login": "ログイン",
+    "startTrial": "無料トライアルを開始"
+  },
+  "Hero": {
+    "title": "美しくシンプルな請求書自動化。",
+    "description": "強力なセルフサービス型の製品および成長分析により、ユーザーの獲得、エンゲージメント、維持を支援します。4,000社以上のスタートアップに信頼されています。",
+    "getStarted": "始める"
+  },
+  "Features": {
+    "title": "機能",
+    "subtitle": "スマートな請求書作成はここから始まる",
+    "description": "AIを活用した機能で、請求書作成プロセス全体を自動化、簡素化、迅速化し、チームが成長に集中できるようにします。",
+    "items": [
+      {
+        "title": "1. 自動データ抽出",
+        "description": "AIを使用して、PDF、スキャン、メールから請求書データを即座に取得・整理します。手動入力は不要です。"
+      },
+      {
+        "title": "2. スマート承認フロー",
+        "description": "請求書を適切な担当者にルーティングし、カスタムルールを設定して、迅速かつコンプライアンスに準拠した承認プロセスを維持します。"
+      },
+      {
+        "title": "3. リアルタイムの財務インサイト",
+        "description": "請求書のステータス、キャッシュフロー、トレンドをインテリジェントなダッシュボードで追跡し、即座に更新されます。"
+      },
+      {
+        "title": "4. シームレスな統合",
+        "description": "ERP、CRM、会計ツールと数クリックで接続できます。開発チームは不要です。"
+      },
+      {
+        "title": "5. AIによる不正検出",
+        "description": "重複、非準拠の請求、疑わしいベンダーを自動的に検出し、支払い前に対処します。"
+      },
+      {
+        "title": "6. 支払いの迅速化",
+        "description": "ベンダーとのコミュニケーションを自動化し、支払いをスケジュールして、パートナーの満足度と健全なキャッシュフローを維持します。"
+      }
+    ]
+  },
+  "HowItWorks": {
+    "title": "使い方",
+    "subtitle": "シンプルなステップ。強力な成果。",
+    "description": "請求書の取得から自動支払いまで、数ステップでワークフローを簡素化する方法をご覧ください。",
+    "sections": [
+      {
+        "title": "請求書データの取得と抽出",
+        "description": "スマートフォンで請求書を撮影するか、PDFや画像ファイルをアップロードします。AI Invoiceが即座にすべての重要情報を読み取り、手動作業なしで正確に整理します。迅速、簡単、エラーなし。",
+        "features": [
+          "手動データ入力不要",
+          "いつでもどこでも請求書を取得",
+          "より迅速かつ正確な処理"
+        ]
+      },
+      {
+        "title": "経費管理の自動化",
+        "description": "会計ソフトウェアとシームレスに統合し、手動アップロードの手間を排除します。AIがすべての取引を正確かつ即座に記録します。",
+        "features": ["会計ツールとの接続", "自動分類", "人的エラーの削減"]
+      },
+      {
+        "title": "リアルタイムのインサイトを得る",
+        "description": "リアルタイムで経費を可視化し、AIを活用した分析とダッシュボードで情報に基づいたビジネス判断を行います。",
+        "features": [
+          "リアルタイムダッシュボード",
+          "カスタマイズ可能なレポート",
+          "AIによるインサイト"
+        ]
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "料金",
+    "subtitle": "最適なプランを見つけましょう",
+    "description": "現在のニーズに合ったプランを選択し、ビジネスの成長に応じていつでもアップグレードできます。",
+    "plans": {
+      "Free": "14日間",
+      "Starter": "$19/月",
+      "Pro": "$49/月",
+      "Business": "$99/月",
+      "Enterprise": "カスタム"
+    },
+    "features": {
+      "SmartOCR": "スマートOCR",
+      "MobileCapture": "モバイルキャプチャ（写真アップロード）",
+      "PDFUpload": "PDFアップロードと解析",
+      "AutoCategorization": "自動分類",
+      "CustomCategories": "カスタムカテゴリ",
+      "AICostClassification": "AIコスト分類",
+      "TaxSummaryPDF": "税金サマリーPDF",
+      "AutoTaxDeclaration": "自動税申告",
+      "AuditTrail": "監査証跡",
+      "OneClickPayments": "ワンクリック支払い",
+      "ScheduledAutoPayments": "スケジュール自動支払い",
+      "PaymentLinkGenerator": "支払いリンク生成",
+      "QuickBooksXeroStripeIntegration": "QuickBooks、Xero、Stripe統合",
+      "APIAccess": "APIアクセス",
+      "CustomIntegrationSupport": "カスタム統合サポート",
+      "UserSeats": "ユーザーシート",
+      "LiveChatSupport": "ライブチャットサポート",
+      "DedicatedSuccessManager": "専任のサクセスマネージャー",
+      "SLACompliance": "SLAとコンプライアンス"
+    }
+  },
+  "FAQ": {
+    "title": "よくある質問",
+    "subtitle": "ご質問はありますか？私たちがお答えします",
+    "description": "AIを活用した請求書作成と請求プロセスの自動化について、必要な情報をご提供します。",
+    "questions": [
+      {
+        "title": "Invoice AIとは何ですか？",
+        "response": "Invoice AIは、人工知能を活用して、あらゆる規模のビジネスの請求および取引プロセス全体を自動化し、効率化するスマートな請求プラットフォームです。"
+      },
+      {
+        "title": "AI自動化はどのように機能しますか？",
+        "response": "当社のAIは、請求書データをスキャン、処理、検証し、手動入力や人的エラーを削減します。過去のデータから学習し、時間とともに精度と速度を向上させます。"
+      },
+      {
+        "title": "Invoice AIは中小企業に適していますか？",
+        "response": "もちろんです。Invoice AIは、スタートアップから大企業まで、ビジネスの成長に応じて柔軟に対応できるツールを提供しています。"
+      },
+      {
+        "title": "Invoice AIは既存のソフトウェアと統合できますか？",
+        "response": "はい。SAP、Oracle、Microsoft Dynamicsなどの人気のERPシステム、会計ソフトウェア、クラウドプラットフォームとシームレスに統合できます。"
+      },
+      {
+        "title": "Invoice AIを試用できますか？",
+        "response": "もちろんです！無料デモをリクエストして、Invoice AIがビジネスニーズにどのように適合するかをご確認いただけます。"
+      }
+    ]
+  },
+  "Trial": {
+    "title": "14日間の無料トライアルを開始",
+    "description": "すでに4,000社以上のスタートアップがInvoice AIで成長しています。",
+    "buttons": {
+      "learnMore": "詳細を見る",
+      "getStarted": "始める"
+    }
+  },
+  "Footer": {
+    "companyName": "Invoice AI",
+    "companyDescription": "Invoice AI – ドイツを拠点とする請求書自動化のリーディングプラットフォームで、世界中のスタートアップ、中小企業、大企業から信頼されています。",
+    "contact": {
+      "email": "info@invoiceai.com",
+      "phone": "(001) 1231 3435"
+    },
+    "socialMedia": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "links": {
+      "home": "ホーム",
+      "features": "機能",
+      "howItWorks": "使い方",
+      "pricing": "料金",
+      "faq": "よくある質問"
+    },
+    "footerNote": "© 2025 Invoice AI – 無断転載を禁じます"
+  },
+
+  "LanguageSwitcher": {
+    "language": "言語",
+    "english": "英語",
+    "portuguese": "ポルトガル語",
+    "spanish": "スペイン語",
+    "french": "フランス語",
+    "german": "ドイツ語",
+    "hindi": "ヒンディー語",
+    "japanese": "日本語",
+    "russian": "ロシア語",
+    "chinese": "中国語"
+  }
+}

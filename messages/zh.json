@@ -1,0 +1,171 @@
+{
+  "Navbar": {
+    "home": "首页",
+    "features": "功能",
+    "howItWorks": "工作原理",
+    "pricing": "价格",
+    "faq": "常见问题",
+    "login": "登录",
+    "startTrial": "开始免费试用"
+  },
+  "Hero": {
+    "title": "美丽简单的发票自动化。",
+    "description": "强大的自助产品和增长分析，帮助您转换、吸引和保留更多用户。超过4,000家初创公司信赖。",
+    "getStarted": "开始"
+  },
+  "Features": {
+    "title": "功能",
+    "subtitle": "智能发票从这里开始",
+    "description": "发现由AI驱动的功能，自动化、简化和加速整个发票处理过程——让您的团队专注于增长。",
+    "items": [
+      {
+        "title": "1. 自动数据提取",
+        "description": "使用AI即时捕获和组织PDF、扫描件和电子邮件中的发票数据——无需手动输入。"
+      },
+      {
+        "title": "2. 智能审批流程",
+        "description": "将发票发送给合适的人，设置自定义规则，并保持审批流程快速和合规。"
+      },
+      {
+        "title": "3. 实时财务洞察",
+        "description": "通过智能仪表板跟踪发票状态、现金流和趋势，更新速度与您移动的速度一样快。"
+      },
+      {
+        "title": "4. 无缝集成",
+        "description": "只需几次点击即可与您的ERP、CRM或会计工具连接——无需开发团队。"
+      },
+      {
+        "title": "5. AI驱动的欺诈检测",
+        "description": "在付款之前自动检测重复项、不合规费用和可疑供应商。"
+      },
+      {
+        "title": "6. 加速付款",
+        "description": "自动化供应商沟通并安排付款，以保持您的合作伙伴满意和现金流健康。"
+      }
+    ]
+  },
+  "HowItWorks": {
+    "title": "工作原理",
+    "subtitle": "简单步骤。强大结果。",
+    "description": "从捕获发票到自动付款，看看我们如何在几个步骤中简化您的工作流程。",
+    "sections": [
+      {
+        "title": "捕获和提取发票数据",
+        "description": "用手机拍摄发票照片或上传PDF或图像文件。AI Invoice立即读取并提取所有关键信息，准确组织，无需任何手动操作。快速、简单且无错误。",
+        "features": ["无需手动数据输入", "随时随地捕获发票", "更快更准确的处理"]
+      },
+      {
+        "title": "自动化费用管理",
+        "description": "与您的会计软件无缝集成，消除手动上传的麻烦。我们的AI确保每笔交易都准确且即时记录。",
+        "features": ["连接会计工具", "自动分类", "减少人为错误"]
+      },
+      {
+        "title": "获得实时洞察",
+        "description": "实时可视化您的费用，并通过AI驱动的分析和仪表板做出明智的业务决策。",
+        "features": ["实时仪表板", "可定制报告", "AI驱动的洞察"]
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "价格",
+    "subtitle": "找到您的完美计划",
+    "description": "选择今天适合您需求的计划，并在您的业务发展时随时升级。",
+    "plans": {
+      "Free": "14天",
+      "Starter": "19美元/月",
+      "Pro": "49美元/月",
+      "Business": "99美元/月",
+      "Enterprise": "定制"
+    },
+    "features": {
+      "SmartOCR": "智能OCR",
+      "MobileCapture": "移动捕获（照片上传）",
+      "PDFUpload": "PDF上传和解析",
+      "AutoCategorization": "自动分类",
+      "CustomCategories": "自定义类别",
+      "AICostClassification": "AI成本分类",
+      "TaxSummaryPDF": "税务摘要PDF",
+      "AutoTaxDeclaration": "自动税务申报",
+      "AuditTrail": "审计跟踪",
+      "OneClickPayments": "一键付款",
+      "ScheduledAutoPayments": "定期自动付款",
+      "PaymentLinkGenerator": "付款链接生成器",
+      "QuickBooksXeroStripeIntegration": "QuickBooks、Xero、Stripe集成",
+      "APIAccess": "API访问",
+      "CustomIntegrationSupport": "定制集成支持",
+      "UserSeats": "用户席位",
+      "LiveChatSupport": "实时聊天支持",
+      "DedicatedSuccessManager": "专属成功经理",
+      "SLACompliance": "SLA和合规"
+    }
+  },
+  "FAQ": {
+    "title": "常见问题",
+    "subtitle": "有问题吗？我们有答案",
+    "description": "关于AI驱动的发票和自动化您的账单流程的一切。",
+    "questions": [
+      {
+        "title": "什么是Invoice AI？",
+        "response": "Invoice AI是一款智能发票平台，使用人工智能自动化和简化整个账单和交易过程，适用于各种规模的企业。"
+      },
+      {
+        "title": "AI自动化如何工作？",
+        "response": "我们的AI扫描、处理和验证发票数据，减少手动输入和人为错误。它从过去的数据中学习，以提高准确性和速度。"
+      },
+      {
+        "title": "Invoice AI适合小型企业吗？",
+        "response": "绝对适合。Invoice AI旨在随着您的业务扩展，提供灵活的工具，支持初创公司和大型企业。"
+      },
+      {
+        "title": "Invoice AI可以与我的现有软件集成吗？",
+        "response": "可以。我们提供与流行的ERP系统、会计软件和云平台（如SAP、Oracle、Microsoft Dynamics等）的无缝集成。"
+      },
+      {
+        "title": "我可以在承诺之前试用Invoice AI吗？",
+        "response": "当然！您可以申请免费演示，探索Invoice AI如何满足您的业务需求。"
+      }
+    ]
+  },
+  "Trial": {
+    "title": "开始您的14天免费试用",
+    "description": "加入已经与Invoice AI一起成长的超过4,000家初创公司。",
+    "buttons": {
+      "learnMore": "了解更多",
+      "getStarted": "开始"
+    }
+  },
+  "Footer": {
+    "companyName": "Invoice AI",
+    "companyDescription": "Invoice AI – 基于德国的领先发票自动化平台，受到全球初创公司、中小企业和大型企业的信赖。",
+    "contact": {
+      "email": "info@invoiceai.com",
+      "phone": "(001) 1231 3435"
+    },
+    "socialMedia": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "links": {
+      "home": "首页",
+      "features": "功能",
+      "howItWorks": "工作原理",
+      "pricing": "价格",
+      "faq": "常见问题"
+    },
+    "footerNote": "© 2025 Invoice AI – 版权所有"
+  },
+
+  "LanguageSwitcher": {
+    "language": "语言",
+    "english": "英语",
+    "portuguese": "葡萄牙语",
+    "spanish": "西班牙语",
+    "french": "法语",
+    "german": "德语",
+    "hindi": "印地语",
+    "japanese": "日语",
+    "russian": "俄语",
+    "chinese": "中文"
+  }
+}

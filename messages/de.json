@@ -1,0 +1,183 @@
+{
+  "Navbar": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "login": "Anmelden",
+    "startTrial": "Kostenlose Testphase starten"
+  },
+  "Hero": {
+    "title": "Einfach schöne Rechnungsautomatisierung.",
+    "description": "Leistungsstarke Self-Service-Analysen für Produkt und Wachstum, mit denen Sie mehr Nutzer gewinnen, binden und halten können. Über 4.000 Start-ups vertrauen bereits darauf.",
+    "getStarted": "Jetzt loslegen"
+  },
+  "Features": {
+    "title": "Funktionen",
+    "subtitle": "Intelligente Rechnungsstellung beginnt hier",
+    "description": "Entdecken Sie KI-gestützte Funktionen, die Ihren gesamten Rechnungsprozess automatisieren, vereinfachen und beschleunigen – damit sich Ihr Team auf Wachstum konzentrieren kann.",
+    "items": [
+      {
+        "title": "1. Automatische Datenerfassung",
+        "description": "Erfassen und organisieren Sie Rechnungsdaten aus PDFs, Scans und E-Mails sofort per KI – ganz ohne manuelle Eingabe."
+      },
+      {
+        "title": "2. Intelligente Freigabeprozesse",
+        "description": "Leiten Sie Rechnungen an die richtigen Personen weiter, legen Sie individuelle Regeln fest und sorgen Sie für einen schnellen und regelkonformen Freigabeprozess."
+      },
+      {
+        "title": "3. Finanzielle Einblicke in Echtzeit",
+        "description": "Verfolgen Sie Rechnungsstatus, Cashflow und Trends mit intelligenten Dashboards, die sich in Echtzeit aktualisieren."
+      },
+      {
+        "title": "4. Nahtlose Integrationen",
+        "description": "Verbinden Sie sich in wenigen Klicks mit Ihrem ERP-, CRM- oder Buchhaltungssystem – ganz ohne Entwicklerteam."
+      },
+      {
+        "title": "5. KI-gestützte Betrugserkennung",
+        "description": "Erkennen Sie automatisch Duplikate, unzulässige Kosten und verdächtige Anbieter – noch bevor Zahlungen erfolgen."
+      },
+      {
+        "title": "6. Schnellere Zahlungen",
+        "description": "Automatisieren Sie die Kommunikation mit Anbietern und planen Sie Zahlungen, um Partner zufriedenzustellen und den Cashflow zu sichern."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "title": "So funktioniert's",
+    "subtitle": "Einfache Schritte. Starke Ergebnisse.",
+    "description": "Von der Rechnungserfassung bis zur automatisierten Zahlung – so vereinfachen wir Ihren Workflow in nur wenigen Schritten.",
+    "sections": [
+      {
+        "title": "Rechnungsdaten erfassen und extrahieren",
+        "description": "Fotografieren Sie Ihre Rechnung mit dem Smartphone oder laden Sie eine PDF- oder Bilddatei hoch. Invoice AI liest und extrahiert automatisch alle wichtigen Informationen – schnell, präzise und ohne manuellen Aufwand.",
+        "features": [
+          "Keine manuelle Dateneingabe",
+          "Rechnungen jederzeit und überall erfassen",
+          "Schnellere und genauere Verarbeitung"
+        ]
+      },
+      {
+        "title": "Kostenmanagement automatisieren",
+        "description": "Integrieren Sie Ihre Buchhaltungssoftware nahtlos und vermeiden Sie manuelle Uploads. Unsere KI sorgt für sofortige und korrekte Erfassung jeder Transaktion.",
+        "features": [
+          "Anbindung an Buchhaltungssysteme",
+          "Automatische Kategorisierung",
+          "Weniger menschliche Fehler"
+        ]
+      },
+      {
+        "title": "Echtzeit-Einblicke gewinnen",
+        "description": "Visualisieren Sie Ihre Ausgaben in Echtzeit und treffen Sie fundierte Geschäftsentscheidungen mithilfe von KI-gestützten Analysen und Dashboards.",
+        "features": [
+          "Dashboards in Echtzeit",
+          "Individuell anpassbare Berichte",
+          "KI-basierte Erkenntnisse"
+        ]
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "Preise",
+    "subtitle": "Finden Sie den passenden Plan",
+    "description": "Wählen Sie den Tarif, der heute zu Ihren Anforderungen passt – ein Upgrade ist jederzeit möglich.",
+    "plans": {
+      "Free": "14 Tage kostenlos",
+      "Starter": "19 $ / Monat",
+      "Pro": "49 $ / Monat",
+      "Business": "99 $ / Monat",
+      "Enterprise": "Individuell"
+    },
+    "features": {
+      "SmartOCR": "Intelligente Texterkennung (OCR)",
+      "MobileCapture": "Mobile Erfassung (Foto-Upload)",
+      "PDFUpload": "PDF-Upload & -Analyse",
+      "AutoCategorization": "Automatische Kategorisierung",
+      "CustomCategories": "Individuelle Kategorien",
+      "AICostClassification": "KI-Kostenklassifizierung",
+      "TaxSummaryPDF": "Steuerzusammenfassung (PDF)",
+      "AutoTaxDeclaration": "Automatische Steuererklärung",
+      "AuditTrail": "Audit-Trail",
+      "OneClickPayments": "Zahlung mit einem Klick",
+      "ScheduledAutoPayments": "Geplante automatische Zahlungen",
+      "PaymentLinkGenerator": "Zahlungslink-Generator",
+      "QuickBooksXeroStripeIntegration": "QuickBooks-, Xero- & Stripe-Integration",
+      "APIAccess": "API-Zugriff",
+      "CustomIntegrationSupport": "Support für individuelle Integrationen",
+      "UserSeats": "Benutzerplätze",
+      "LiveChatSupport": "Live-Chat-Support",
+      "DedicatedSuccessManager": "Persönlicher Kundenbetreuer",
+      "SLACompliance": "SLA & Compliance"
+    }
+  },
+  "FAQ": {
+    "title": "FAQ",
+    "subtitle": "Haben Sie Fragen? Wir haben Antworten.",
+    "description": "Alles, was Sie über KI-gestützte Rechnungen und automatisierte Abrechnungsprozesse wissen müssen.",
+    "questions": [
+      {
+        "title": "Was ist Invoice AI?",
+        "response": "Invoice AI ist eine intelligente Rechnungsplattform, die mithilfe künstlicher Intelligenz den gesamten Abrechnungs- und Transaktionsprozess für Unternehmen jeder Größe automatisiert und optimiert."
+      },
+      {
+        "title": "Wie funktioniert die KI-Automatisierung?",
+        "response": "Unsere KI scannt, verarbeitet und validiert Rechnungsdaten, reduziert manuelle Eingaben und minimiert Fehler. Sie lernt aus bisherigen Daten, um im Laufe der Zeit immer schneller und genauer zu werden."
+      },
+      {
+        "title": "Ist Invoice AI für kleine Unternehmen geeignet?",
+        "response": "Auf jeden Fall. Invoice AI ist skalierbar und bietet flexible Werkzeuge für Start-ups ebenso wie für große Unternehmen."
+      },
+      {
+        "title": "Kann ich Invoice AI in meine bestehende Software integrieren?",
+        "response": "Ja. Wir bieten nahtlose Integrationen mit gängigen ERP-Systemen, Buchhaltungsprogrammen und Cloud-Plattformen wie SAP, Oracle, Microsoft Dynamics und vielen mehr."
+      },
+      {
+        "title": "Kann ich Invoice AI kostenlos testen?",
+        "response": "Natürlich! Sie können eine kostenlose Demo anfordern, um herauszufinden, wie Invoice AI zu Ihrem Unternehmen passt."
+      }
+    ]
+  },
+  "Trial": {
+    "title": "Starten Sie Ihre 14-tägige kostenlose Testphase",
+    "description": "Schließen Sie sich über 4.000 Start-ups an, die bereits mit Invoice AI wachsen.",
+    "buttons": {
+      "learnMore": "Mehr erfahren",
+      "getStarted": "Jetzt starten"
+    }
+  },
+  "Footer": {
+    "companyName": "Invoice AI",
+    "companyDescription": "Invoice AI – Die führende Plattform für Rechnungsautomatisierung mit Sitz in Deutschland, der Start-ups, KMU und Großunternehmen weltweit vertrauen.",
+    "contact": {
+      "email": "info@invoiceai.com",
+      "phone": "(001) 1231 3435"
+    },
+    "socialMedia": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "links": {
+      "home": "Startseite",
+      "features": "Funktionen",
+      "howItWorks": "So funktioniert's",
+      "pricing": "Preise",
+      "faq": "FAQ"
+    },
+    "footerNote": "© 2025 Invoice AI – Alle Rechte vorbehalten"
+  },
+
+  "LanguageSwitcher": {
+    "language": "Sprache",
+    "english": "Englisch",
+    "portuguese": "Portugiesisch",
+    "spanish": "Spanisch",
+    "french": "Französisch",
+    "german": "Deutsch",
+    "hindi": "Hindi",
+    "japanese": "Japanisch",
+    "russian": "Russisch",
+    "chinese": "Chinesisch"
+  }
+}

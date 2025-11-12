@@ -1,0 +1,55 @@
+name: Publish to HoPn Registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    environment: hopn-beta
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Login to Private Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ secrets.REGISTRY_URL }} # e.g., registry.example.com
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+
+      - name: Set dynamic version
+        id: version
+        run: |
+          # Generate version based on date + short SHA
+          version="$(date +%d.%m.%Y).$(echo $GITHUB_SHA | cut -c1-7)"
+          echo "VERSION=$version" >> $GITHUB_ENV
+          echo "SHORT_SHA=${GITHUB_SHA:0:7}" >> $GITHUB_ENV
+
+      - name: Build and push Frontend image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: ${{ github.event_name == 'push' }}  # Only push on direct pushes
+          tags: |
+            ${{ secrets.REGISTRY_URL }}/hopn.wizeinvoice.front:latest
+            ${{ secrets.REGISTRY_URL }}/hopn.wizeinvoice.front:${{ env.VERSION }}
+            ${{ secrets.REGISTRY_URL }}/hopn.wizeinvoice.front:front-${{ env.SHORT_SHA }}
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd ~/workspaces/docker/wize-invoice/
+            sed -i "s/^FRONT_IMAGE_VERSION=.*/FRONT_IMAGE_VERSION=${{ env.VERSION }}/" .env
+            docker compose down
+            docker compose pull
+            docker compose up -d

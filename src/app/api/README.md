@@ -1,0 +1,1 @@
+## Folder focused on handling requests, parameters and responses

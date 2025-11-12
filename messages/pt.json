@@ -1,0 +1,183 @@
+{
+  "Navbar": {
+    "home": "Início",
+    "features": "Recursos",
+    "howItWorks": "Como Funciona",
+    "pricing": "Preços",
+    "faq": "Perguntas Frequentes",
+    "login": "Entrar",
+    "startTrial": "Iniciar Teste Gratuito"
+  },
+  "Hero": {
+    "title": "Automação de Faturas, Simples e Eficiente.",
+    "description": "Análises poderosas e automáticas para impulsionar conversão, engajamento e retenção de usuários. Confiado por mais de 4.000 startups.",
+    "getStarted": "Começar Agora"
+  },
+  "Features": {
+    "title": "Recursos",
+    "subtitle": "Faturamento Inteligente Começa Aqui",
+    "description": "Conheça os recursos com inteligência artificial que automatizam, simplificam e aceleram todo o seu processo de faturamento — para que sua equipe foque no crescimento.",
+    "items": [
+      {
+        "title": "1. Extração Automática de Dados",
+        "description": "Use IA para capturar e organizar instantaneamente dados de faturas a partir de PDFs, digitalizações e e-mails — sem necessidade de digitação manual."
+      },
+      {
+        "title": "2. Fluxos de Aprovação Inteligentes",
+        "description": "Direcione as faturas para as pessoas certas, defina regras personalizadas e mantenha seu processo de aprovação rápido e em conformidade."
+      },
+      {
+        "title": "3. Insights Financeiros em Tempo Real",
+        "description": "Acompanhe o status das faturas, fluxo de caixa e tendências com painéis inteligentes que se atualizam em tempo real."
+      },
+      {
+        "title": "4. Integrações Sem Complicações",
+        "description": "Conecte-se ao seu ERP, CRM ou sistema contábil em apenas alguns cliques — sem precisar da equipe de desenvolvimento."
+      },
+      {
+        "title": "5. Detecção de Fraudes com IA",
+        "description": "Identifique automaticamente cobranças duplicadas, não conformes e fornecedores suspeitos antes que os pagamentos sejam feitos."
+      },
+      {
+        "title": "6. Pagamentos Acelerados",
+        "description": "Automatize a comunicação com fornecedores e agende pagamentos para manter seus parceiros satisfeitos e o fluxo de caixa saudável."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "title": "Como Funciona",
+    "subtitle": "Passos Simples. Resultados Poderosos.",
+    "description": "Desde a captura de faturas até os pagamentos automatizados, veja como simplificamos seu fluxo de trabalho em poucos passos.",
+    "sections": [
+      {
+        "title": "Capture e extraia dados de faturas",
+        "description": "Fotografe sua fatura com o celular ou envie um arquivo PDF ou imagem. A Invoice AI lê e extrai imediatamente todas as informações principais, organizando tudo com precisão — sem esforço manual. Rápido, simples e sem erros.",
+        "features": [
+          "Sem digitação manual de dados",
+          "Capture faturas de qualquer lugar, a qualquer momento",
+          "Processamento mais rápido e preciso"
+        ]
+      },
+      {
+        "title": "Automatize a gestão de despesas",
+        "description": "Integre-se perfeitamente ao seu software contábil e elimine o trabalho manual. Nossa IA garante que cada transação seja registrada com precisão e em tempo real.",
+        "features": [
+          "Integração com sistemas contábeis",
+          "Categorização automática",
+          "Redução de erros humanos"
+        ]
+      },
+      {
+        "title": "Tenha insights em tempo real",
+        "description": "Visualize suas despesas em tempo real e tome decisões mais inteligentes com análises e painéis impulsionados por IA.",
+        "features": [
+          "Painéis em tempo real",
+          "Relatórios personalizáveis",
+          "Insights gerados por IA"
+        ]
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "Preços",
+    "subtitle": "Encontre o Plano Ideal para Você",
+    "description": "Escolha o plano que atenda às suas necessidades hoje e faça upgrade a qualquer momento conforme seu negócio evolui.",
+    "plans": {
+      "Free": "14 dias grátis",
+      "Starter": "R$19/mês",
+      "Pro": "R$49/mês",
+      "Business": "R$99/mês",
+      "Enterprise": "Personalizado"
+    },
+    "features": {
+      "SmartOCR": "OCR Inteligente",
+      "MobileCapture": "Captura via Celular (Foto)",
+      "PDFUpload": "Envio e Leitura de PDFs",
+      "AutoCategorization": "Categorização Automática",
+      "CustomCategories": "Categorias Personalizadas",
+      "AICostClassification": "Classificação de Custos com IA",
+      "TaxSummaryPDF": "Resumo Fiscal em PDF",
+      "AutoTaxDeclaration": "Declaração Fiscal Automática",
+      "AuditTrail": "Trilha de Auditoria",
+      "OneClickPayments": "Pagamentos com Um Clique",
+      "ScheduledAutoPayments": "Pagamentos Automáticos Agendados",
+      "PaymentLinkGenerator": "Gerador de Link de Pagamento",
+      "QuickBooksXeroStripeIntegration": "Integração com QuickBooks, Xero e Stripe",
+      "APIAccess": "Acesso à API",
+      "CustomIntegrationSupport": "Suporte a Integrações Personalizadas",
+      "UserSeats": "Usuários Permitidos",
+      "LiveChatSupport": "Suporte por Chat ao Vivo",
+      "DedicatedSuccessManager": "Gerente de Sucesso Dedicado",
+      "SLACompliance": "SLA e Conformidade"
+    }
+  },
+  "FAQ": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Tem dúvidas? Nós temos as respostas",
+    "description": "Tudo o que você precisa saber sobre faturamento com IA e automação dos seus processos de cobrança.",
+    "questions": [
+      {
+        "title": "O que é a Invoice AI?",
+        "response": "A Invoice AI é uma plataforma de faturamento inteligente que utiliza inteligência artificial para automatizar e simplificar todo o processo de cobrança e transações para empresas de todos os tamanhos."
+      },
+      {
+        "title": "Como funciona a automação com IA?",
+        "response": "Nossa IA escaneia, processa e valida os dados das faturas, reduzindo entradas manuais e erros humanos. Ela aprende com dados anteriores para melhorar sua precisão e velocidade com o tempo."
+      },
+      {
+        "title": "A Invoice AI é adequada para pequenas empresas?",
+        "response": "Com certeza. A Invoice AI foi desenvolvida para crescer junto com seu negócio, oferecendo ferramentas flexíveis para startups e grandes empresas."
+      },
+      {
+        "title": "A Invoice AI pode ser integrada ao meu software atual?",
+        "response": "Sim. Oferecemos integrações perfeitas com os principais sistemas ERP, softwares contábeis e plataformas em nuvem como SAP, Oracle, Microsoft Dynamics, entre outros."
+      },
+      {
+        "title": "Posso testar a Invoice AI antes de contratar?",
+        "response": "Claro! Você pode solicitar uma demonstração gratuita para explorar como a Invoice AI pode atender às necessidades do seu negócio."
+      }
+    ]
+  },
+  "Trial": {
+    "title": "Comece seu teste gratuito de 14 dias",
+    "description": "Junte-se às mais de 4.000 startups que já estão crescendo com a Invoice AI.",
+    "buttons": {
+      "learnMore": "Saiba Mais",
+      "getStarted": "Começar Agora"
+    }
+  },
+  "Footer": {
+    "companyName": "Invoice AI",
+    "companyDescription": "Invoice AI – A principal plataforma de automação de faturamento com sede na Alemanha, confiada por startups, PMEs e grandes empresas ao redor do mundo.",
+    "contact": {
+      "email": "info@invoiceai.com",
+      "phone": "(001) 1231 3435"
+    },
+    "socialMedia": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "links": {
+      "home": "Início",
+      "features": "Recursos",
+      "howItWorks": "Como Funciona",
+      "pricing": "Preços",
+      "faq": "Perguntas Frequentes"
+    },
+    "footerNote": "© 2025 Invoice AI – Todos os direitos reservados"
+  },
+
+  "LanguageSwitcher": {
+    "language": "Idioma",
+    "english": "Inglês",
+    "portuguese": "Português",
+    "spanish": "Espanhol",
+    "french": "Francês",
+    "german": "Alemão",
+    "hindi": "Hindi",
+    "japanese": "Japonês",
+    "russian": "Russo",
+    "chinese": "Chinês"
+  }
+}
